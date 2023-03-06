@@ -2,18 +2,18 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'alexisjapas', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['alexisjapas.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'alexis-japas',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
@@ -23,13 +23,13 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'alexis.japas.dev@pm.me',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
