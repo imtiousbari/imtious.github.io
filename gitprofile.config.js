@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'alexisjapas', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['alexisjapas.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -18,8 +18,8 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
@@ -32,32 +32,29 @@ const config = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'GNU/Linux',
+    'Windows',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'C',
+    'C++',
+    'MATLAB',
+    'Scala',
+    'Pytorch'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Safran Electronics & Defense',
+      position: 'Image processing engineer apprentice',
+      from: 'September 2020',
+      to: 'August 2023',
+      companyLink: 'https://www.safran-group.com/fr/societes/safran-electronics-defense',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'Politecnico di Milano',
+      position: 'Data processing intern',
+      location: 'Milan, Italy',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
