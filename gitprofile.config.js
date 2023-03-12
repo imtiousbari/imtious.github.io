@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'alexisjapas', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 4, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['alexisjapas.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -54,10 +54,30 @@ const config = {
     {
       company: 'Politecnico di Milano',
       position: 'Data processing intern',
-      location: 'Milan, Italy',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      from: 'June 2022',
+      to: 'July 2022',
+      companyLink: 'https://www.polimi.it',
+    },
+    {
+      company: 'EEAP Coste-Rousse',
+      position: 'Android developer intern',
+      from: 'June 2019',
+      to: 'August 2019',
+      companyLink: 'https://www.adages.net/costerousse',
+    },
+    {
+      company: 'SERMA Technologies',
+      position: 'Laboratory technician',
+      from: 'April 2018',
+      to: 'August 2018',
+      companyLink: 'https://www.serma-technologies.com',
+    },
+    {
+      company: 'ISTerre',
+      position: 'Signal processing intern',
+      from: 'November 2017',
+      to: 'February 2018',
+      companyLink: 'https://www.isterre.fr',
     },
   ],
   /* certifications: [
@@ -70,38 +90,43 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'CYTech (ex-EISTI)',
+      degree: 'Engineering: Mathematics/Computer Science - Artificial Intelligence',
+      from: '2020',
+      to: '2023',
+    },
+    {
+      institution: 'Lycée André Argouges',
+      degree: 'CPGE ATS: Engineering Science',
+      from: '2019',
+      to: '2020',
+    },
+    {
+      institution: 'Université Grenoble Alpes',
+      degree: 'DUT: Computer Science',
+      from: '2018',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Université Grenoble Alpes',
+      degree: 'DUT: Applied Physics',
+      from: '2015',
+      to: '2018',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+  /*{
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+    }*/
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
+  /*blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
@@ -113,7 +138,7 @@ const config = {
   hotjar: {
     id: '',
     snippetVersion: 6,
-  },
+  },*/
   themeConfig: {
     defaultTheme: 'autumn',
 
