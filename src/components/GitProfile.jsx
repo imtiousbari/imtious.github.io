@@ -36,7 +36,7 @@ const GitProfile = ({ config }) => {
   const [sanitizedConfig] = useState(
     typeof config === 'undefined' && !config ? null : sanitizeConfig(config)
   );
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState(true);
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState(null);
   const [repo, setRepo] = useState(null);
@@ -157,7 +157,7 @@ const GitProfile = ({ config }) => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
                   <div className="col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      {!sanitizedConfig.themeConfig.disableSwitch && (
+                      {!sanitizedConfig.themeConfig.enableSwitch && (
                         <ThemeChanger
                           theme={theme}
                           setTheme={setTheme}
